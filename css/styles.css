@@ -1,0 +1,160 @@
+body {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-decoration-line: none;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+h2 {
+    color: #2E2F42;
+}
+
+p,
+header address a {
+    color: #434455;
+}
+
+header a,
+footer a,
+.contacts {
+    text-decoration-line: none;
+    color: #2E2F42;
+
+}
+
+.logo {
+    font-family: "Raleway";
+    font-style: middle;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #2E2F42;
+    ;
+}
+
+.logo-web {
+    font-family: "Raleway";
+    font-style: middle;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #4D5AE5;
+}
+
+.logo-down,
+.text-down {
+    color: #F4F4FD;
+}
+
+.down,
+.hero-banner {
+    background-color: #2E2F42;
+}
+
+.top-menu {
+    font-Weight 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.contacts {
+    font-Weight 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.hero-banner-name {
+    color: #ffff;
+    font-Weight 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%
+}
+
+.top {
+    background-color: #ffff;
+}
+
+.hero-banner-button {
+    color: #ffff;
+    background-color: #4D5AE5;
+    font-style: middle;
+    width: 169px;
+    Height: 56px;
+    font-Weight 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%
+}
+
+.benefits-title {
+    color: #2E2F42;
+    font-Weight 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.benefits-text {
+    color: #434455;
+    font-Weight 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.Team {
+    background-color: #F4F4FD;
+}
+
+.Team-title {
+    color: #2E2F42;
+}
+
+.Team-name {
+    color: #2E2F42;
+    font-Weight 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.portfolio h2 {
+    color: #2E2F42;
+    background-color: #E7E9FC;
+}
+
+.benefits-text {
+    color: #434455;
+    font-Weight 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-Weight 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
+
+.portfolio-text {
+    color: #434455;
+    font-Weight 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+}
