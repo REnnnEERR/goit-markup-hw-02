@@ -1,5 +1,7 @@
 body {
-    font-family: "roboto";
+
+    font-family: "roboto", sans-serif;
+    background-color: #ffff;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -18,13 +20,14 @@ footer a,
 .contacts,
 .logo,
 .benefits-title,
-.Team-title,
-.Team-name .portfolio h2,
+.team-title,
+.team-name .portfolio h2,
 .portfolio-title {
     color: #2E2F42;
 }
 
 p,
+body,
 header address a,
 .benefits-text {
     color: #434455;
@@ -37,17 +40,19 @@ footer a,
 }
 
 .logo {
-    font-family: "Raleway";
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-style: middle;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17px;
     letter-spacing: 3%;
+    text-transform: uppercase;
 
 }
 
 .logo-web {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-style: middle;
     font-weight: 700;
     font-size: 18px;
@@ -82,7 +87,7 @@ footer a,
 
 .hero-banner-name {
     color: #ffff;
-    font-Weight 700;
+    font-weight 700;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 2%
@@ -97,8 +102,8 @@ footer a,
     background-color: #4D5AE5;
     font-style: middle;
     width: 169px;
-    Height: 56px;
-    font-Weight 500;
+    height: 56px;
+    font-weight 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%
@@ -109,9 +114,9 @@ footer a,
 }
 
 .benefits-title,
-.Team-name,
+.team-name,
 .portfolio-title {
-    font-Weight 500;
+    font-weight 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%
@@ -120,13 +125,13 @@ footer a,
 .benefits-text,
 .portfolio-text {
     color: #434455;
-    font-Weight 400;
+    font-weight 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%
 }
 
-.Team {
+.team {
     background-color: #F4F4FD;
 }
 
