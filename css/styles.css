@@ -12,12 +12,21 @@ body {
     font-style: normal;
 }
 
-h2 {
+h2,
+header a,
+footer a,
+.contacts,
+.logo,
+.benefits-title,
+.Team-title,
+.Team-name .portfolio h2,
+.portfolio-title {
     color: #2E2F42;
 }
 
 p,
-header address a {
+header address a,
+.benefits-text {
     color: #434455;
 }
 
@@ -25,8 +34,6 @@ header a,
 footer a,
 .contacts {
     text-decoration-line: none;
-    color: #2E2F42;
-
 }
 
 .logo {
@@ -36,8 +43,7 @@ footer a,
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 3%;
-    color: #2E2F42;
-    ;
+
 }
 
 .logo-web {
@@ -98,15 +104,21 @@ footer a,
     letter-spacing: 4%
 }
 
-.benefits-title {
-    color: #2E2F42;
+.hero-banner-button:hover {
+    background-color: #404BBF
+}
+
+.benefits-title,
+.Team-name,
+.portfolio-title {
     font-Weight 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%
 }
 
-.benefits-text {
+.benefits-text,
+.portfolio-text {
     color: #434455;
     font-Weight 400;
     font-size: 16px;
@@ -118,43 +130,20 @@ footer a,
     background-color: #F4F4FD;
 }
 
-.Team-title {
-    color: #2E2F42;
-}
-
-.Team-name {
-    color: #2E2F42;
-    font-Weight 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%
-}
-
 .portfolio h2 {
-    color: #2E2F42;
     background-color: #E7E9FC;
 }
 
-.benefits-text {
-    color: #434455;
-    font-Weight 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%
+.top-menu :hover {
+    color: #404BBF;
 }
 
-.portfolio-title {
-    color: #2E2F42;
-    font-Weight 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%
+.contacts :hover {
+    color: #404BBF;
 }
 
-.portfolio-text {
-    color: #434455;
-    font-Weight 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%
+.top-menu-studio :focus {
+    color: #404BBF;
+    text-decoration-line: underline;
+    text-decoration-color: #404BBF;
 }
