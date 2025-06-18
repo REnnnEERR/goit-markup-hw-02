@@ -71,14 +71,14 @@ footer a,
 }
 
 .top-menu {
-    font-Weight 500;
+    font-Weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%
 }
 
 .contacts {
-    font-Weight 400;
+    font-Weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%
@@ -86,7 +86,7 @@ footer a,
 
 .hero-banner-name {
     color: #ffff;
-    font-weight 700;
+    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 2%
@@ -102,7 +102,7 @@ footer a,
     font-style: middle;
     width: 169px;
     height: 56px;
-    font-weight 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%
@@ -115,7 +115,7 @@ footer a,
 .benefits-title,
 .team-name,
 .portfolio-title {
-    font-weight 500;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%
@@ -124,7 +124,7 @@ footer a,
 .benefits-text,
 .portfolio-text {
     color: #434455;
-    font-weight 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%
