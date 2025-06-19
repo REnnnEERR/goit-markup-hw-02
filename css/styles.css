@@ -21,7 +21,6 @@ footer a,
 .contacts,
 .logo-top,
 .benefits-title,
-.team-title,
 .team-name .portfolio h2,
 .portfolio-title {
     color: #2e2f42;
@@ -41,7 +40,6 @@ footer a,
 }
 
 .logo-top {
-    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-style: middle;
     font-weight: 700;
