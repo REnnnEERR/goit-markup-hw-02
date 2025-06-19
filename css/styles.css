@@ -157,6 +157,9 @@ footer a,
     text-transform: capitalize;
 }
 
+.team-title {
+    color: #2e2f42;
+}
 
 .team-photo {
     background-color: #FFFFFF;
@@ -216,4 +219,8 @@ footer a,
 
 .logo-studio-footer {
     color: #f4f4fd;
+}
+
+.top-menu-studio:focus {
+    color: #404bbf;
 }
