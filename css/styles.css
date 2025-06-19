@@ -194,7 +194,7 @@ footer a,
     text-decoration-color: #404BBF;
 }
 
-.logo-down {
+.logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -212,4 +212,8 @@ footer a,
 
 .logo-studio {
     color: #2e2f42;
+}
+
+.logo-studio-footer {
+    color: #f4f4fd;
 }
