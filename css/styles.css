@@ -19,7 +19,7 @@ h2,
 header a,
 footer a,
 .contacts,
-.logo,
+.logo-top,
 .benefits-title,
 .team-title,
 .team-name .portfolio h2,
@@ -40,7 +40,7 @@ footer a,
     text-decoration-line: none;
 }
 
-.logo {
+.logo-top {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-style: middle;
@@ -153,15 +153,21 @@ footer a,
 .team-title {
     letter-spacing: 0.02em;
     color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 
-.team-mark {
+.team-photo {
     background-color: #FFFFFF;
 }
 
 .team-text {
     letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .portfolio h2 {
@@ -187,16 +193,21 @@ footer a,
 }
 
 .logo-down {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4d5ae5;
 }
 
 .text-down {
-    letter-spacing: 0.02em
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.logo-studio {
+    color: #f4f4fd;
 }
