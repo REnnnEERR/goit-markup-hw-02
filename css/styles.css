@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-decoration-line: none;
 }
 
@@ -24,7 +24,7 @@ footer a,
 .team-title,
 .team-name .portfolio h2,
 .portfolio-title {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 p,
@@ -57,7 +57,7 @@ footer a,
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: #2e2f42;
 }
 
@@ -75,7 +75,7 @@ footer a,
     font-Weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%
+    letter-spacing: 0.02em;
 }
 
 .top-menu-studio {
@@ -86,7 +86,7 @@ footer a,
     font-Weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%
+    letter-spacing: 0.02em;
 }
 
 .hero-banner-name {
@@ -94,7 +94,9 @@ footer a,
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 2%
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
 }
 
 .top {
@@ -105,15 +107,20 @@ footer a,
     color: #ffff;
     background-color: #4D5AE5;
     font-style: middle;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .hero-banner-button:hover {
     background-color: #404BBF
+}
+
+.hero-banner-button:focus {
+    background-color: #404BBF;
 }
 
 .benefits-title,
@@ -122,7 +129,7 @@ footer a,
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%
+    letter-spacing: 0.02em;
 }
 
 .benefits-text,
@@ -131,11 +138,30 @@ footer a,
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%
+    letter-spacing: 0.02em;
 }
 
 .team {
     background-color: #F4F4FD;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-title {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
+.team-mark {
+    background-color: #FFFFFF;
+}
+
+.team-text {
+    letter-spacing: 0.02em;
 }
 
 .portfolio h2 {
@@ -158,4 +184,19 @@ footer a,
     color: #404BBF;
     text-decoration-line: underline;
     text-decoration-color: #404BBF;
+}
+
+.logo-down {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4d5ae5;
+}
+
+.text-down {
+    letter-spacing: 0.02em
 }
