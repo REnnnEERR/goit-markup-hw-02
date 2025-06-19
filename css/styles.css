@@ -19,7 +19,6 @@ h2,
 header a,
 footer a,
 .contacts,
-.logo-top,
 .benefits-title,
 .team-name .portfolio h2,
 .portfolio-title {
@@ -185,6 +184,10 @@ footer a,
     color: #404bbf
 }
 
+.top-menu-studio :hover {
+    #404bbf
+}
+
 .top-menu-studio :focus {
     color: #404BBF;
     text-decoration-line: underline;
@@ -208,5 +211,5 @@ footer a,
 }
 
 .logo-studio {
-    color: #f4f4fd;
+    color: #2e2f42;
 }
