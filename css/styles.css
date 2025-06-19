@@ -12,6 +12,7 @@ body {
 
 .contacts {
     font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 h2,
@@ -45,8 +46,8 @@ footer a,
     font-style: middle;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.17px;
+    letter-spacing: 3%;
     text-transform: uppercase;
 }
 
@@ -75,6 +76,10 @@ footer a,
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%
+}
+
+.top-menu-studio {
+    letter-spacing: 0.02em;
 }
 
 .contacts {
@@ -143,6 +148,10 @@ footer a,
 
 .contacts :hover {
     color: #404BBF;
+}
+
+.contacts :focus {
+    color: #404bbf
 }
 
 .top-menu-studio :focus {
