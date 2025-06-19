@@ -39,7 +39,7 @@ footer a,
     text-decoration-line: none;
 }
 
-.logo-top {
+.logo {
     font-family: "Raleway", sans-serif;
     font-style: middle;
     font-weight: 700;
@@ -47,6 +47,7 @@ footer a,
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo-studio {
@@ -59,7 +60,7 @@ footer a,
     color: #2e2f42;
 }
 
-.logo-down,
+.logo-footer,
 .text-down {
     color: #F4F4FD;
 }
